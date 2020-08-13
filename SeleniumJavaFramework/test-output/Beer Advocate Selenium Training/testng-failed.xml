@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Beer Advocate Selenium Training]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Beer Advocate Test Cases(failed)">
+    <classes>
+      <class name="com.qa.testcases.AddPlacePageTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="validateAddPlace" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.qa.testcases.AddPlacePageTest -->
+    </classes>
+  </test> <!-- Beer Advocate Test Cases(failed) -->
+</suite> <!-- Failed suite [Beer Advocate Selenium Training] -->
